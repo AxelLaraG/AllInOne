@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainButtons"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="@color/material_dynamic_neutral_variant90">
+
+        <!-- Pregunta 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIENVENID@ A NUESTRA APP"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puedes interactuar con el menú de abajo"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnSig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/but_next"/>
+        <!-- Botón Flotante -->
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="1dp"
+            android:clickable="true"
+            app:elevation="6dp"
+            app:fabSize="normal"
+            app:srcCompat="@android:drawable/stat_notify_chat"
+            android:contentDescription="Botón flotante para mensaje"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="1dp"
+            android:clickable="true"
+            app:elevation="6dp"
+            app:fabSize="normal"
+            app:srcCompat="@android:drawable/ic_dialog_info"
+            android:contentDescription="Botón flotante para mensaje 2" />
+
+        <Button
+            android:id="@+id/returnMainButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/but_mainScreen"/>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

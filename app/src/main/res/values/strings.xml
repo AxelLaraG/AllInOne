@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">TodoJuntoFunciona</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="commons_title">Comunes</string>
+    <string name="form_title">Formulario</string>
+
+    <string name="ex_text">Texto Corto 1</string>
+    <string name="ex_text2">Texto más largo a comparación del primero</string>
+    <string name="ex_question1">¿Te gusta android?</string>
+    <string name="ex_question2">¿Listo para enviar?</string>
+
+    <string name="instructions">Seleccione el objeto a visualizar</string>
+    <string name="image_desc">App_logo</string>
+
+    <string name="req_name">Ingrese su Nombre</string>
+    <string name="req_phone">Ingrese su teléfono</string>
+    <string name="req_bd">Ingrese su cumpleaños</string>
+    <string name="req_gender">Género</string>
+    <string name="req_pass">Ingrese su Contraseña</string>
+    <string name="req_favCol">Color favorito</string>
+
+    <string name="opt_women">Mujer</string>
+    <string name="opt_men">Hombre</string>
+
+    <string name="switch_desc">Switch</string>
+
+    <string name="chk_red">Rojo</string>
+    <string name="chk_green">Verde</string>
+    <string name="chk_yellow">Amarillo</string>
+    <string name="chk_blue">Azul</string>
+    <string name="chk_purple">Morado</string>
+
+    <string name="but_shwText">Mostrar Textos</string>
+    <string name="but_hideText">Ocultar Textos</string>
+    <string name="but_show">Mostrar</string>
+    <string name="but_clean">Limpiar</string>
+    <string name="but_spin">Girar</string>
+    <string name="but_next">Siguiente</string>
+    <string name="but_exit">Salir</string>
+    <string name="but_layout">Layouts</string>
+    <string name="but_helpers">Helpers</string>
+    <string name="but_commons">Commons</string>
+    <string name="but_google">Google Objects</string>
+    <string name="but_containers">Containers</string>
+    <string name="but_texts">Textos</string>
+    <string name="but_buttons">Botones</string>
+    <string name="but_widgets">Widgets</string>
+    <string name="but_yes">Sí</string>
+    <string name="but_no">No</string>
+    <string name="but_mainScreen">Regresar al inicio</string>
+    <string name="but_send">Enviar</string>
+</resources>

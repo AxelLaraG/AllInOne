@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/thanksButtons"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThanksButtons">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="@color/material_dynamic_neutral_variant90">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GRACIAS POR USAR NUESTRA APLICACIÓN"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elaborado por:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandra Rita"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Melanie González"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"/>
+
+        <!-- Botón para regresar a MainActivity -->
+        <Button
+            android:id="@+id/btnInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/but_mainScreen" />
+
+        <!-- Contenedor para los botones flotantes -->
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:padding="16dp">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="end">
+
+                    <!-- Botón flotante secundario 1 -->
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fab_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:visibility="gone"
+                        app:elevation="6dp"
+                        app:fabSize="mini"
+                        app:srcCompat="@android:drawable/stat_notify_chat"
+                        android:contentDescription="Botón flotante para mensaje"/>
+
+                    <!-- Botón flotante secundario 2 -->
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fab_btn_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:visibility="gone"
+                        app:elevation="6dp"
+                        app:fabSize="mini"
+                        app:srcCompat="@android:drawable/ic_dialog_email"
+                        android:contentDescription="Botón flotante para mensaje 2"/>
+
+                    <!-- Botón flotante principal (abre/cierra menú) -->
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fab_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:elevation="6dp"
+                        app:fabSize="normal"
+                        app:srcCompat="@android:drawable/ic_input_add"
+                        android:contentDescription="Menú de opciones"/>
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

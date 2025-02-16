@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@string/instructions'
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='@string/but_layout'/>
+
+        <Button
+            android:id="@+id/btnCommons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='@string/but_commons'/>
+
+        <Button
+            android:id="@+id/btnHelpers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='@string/but_helpers'/>
+
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/but_google"/>
+
+        <Button
+            android:id="@+id/btnContainers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/but_containers"/>
+
+        <Button
+            android:id="@+id/btnTexts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/but_texts"/>
+
+        <Button
+            android:id="@+id/btnButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/but_buttons"/>
+
+        <Button
+            android:id="@+id/btnWidgets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/but_widgets"/>
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Información Adicional"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Sesión"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
